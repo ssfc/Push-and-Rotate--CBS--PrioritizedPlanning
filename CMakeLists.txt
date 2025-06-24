@@ -66,5 +66,7 @@ set(SOURCE_FILES
         xmllogger.h
         zero_scipp.h
         zero_scipp_node.h
+
+        focal_lpa_star.cpp
         )
 add_executable(MultiAgentSearch ${SOURCE_FILES})
