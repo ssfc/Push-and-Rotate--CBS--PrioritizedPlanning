@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 2.8)
 project(MultiAgentSearch)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O2 -Wall -Wextra")
+if (MSVC)
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4 /std:c++11 /O2")
+else()
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O2 -Wall -Wextra")
+endif()
 include_directories(.)
 set(SOURCE_FILES
         agent.cpp
