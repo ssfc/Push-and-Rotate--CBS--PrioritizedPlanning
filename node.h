@@ -1,6 +1,7 @@
 #ifndef NODE_H
 #define NODE_H
 
+#include <cstddef>
 #include <unordered_set>
 #include <tuple>
 #include "gl_const.h"
