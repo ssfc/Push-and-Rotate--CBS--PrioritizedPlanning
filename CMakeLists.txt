@@ -69,5 +69,6 @@ set(SOURCE_FILES
 
         focal_lpa_star.cpp
         replanning_astar.cpp
+        replanning_focal_search.cpp
         )
 add_executable(MultiAgentSearch ${SOURCE_FILES})
