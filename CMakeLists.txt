@@ -67,6 +67,7 @@ set(SOURCE_FILES
         zero_scipp.h
         zero_scipp_node.h
 
+        anytime_cbs.cpp
         focal_lpa_star.cpp
         replanning_astar.cpp
         replanning_focal_search.cpp
