@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <algorithm>
+#include <iterator>
 #include <unordered_set>
 #include <set>
 #include "conflict.h"
