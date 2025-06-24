@@ -68,5 +68,6 @@ set(SOURCE_FILES
         zero_scipp_node.h
 
         focal_lpa_star.cpp
+        replanning_astar.cpp
         )
 add_executable(MultiAgentSearch ${SOURCE_FILES})
